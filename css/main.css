@@ -1270,3 +1270,9 @@ main {
     border-radius: 8px;
     background: #02897A;
 }
+
+.enterprise__inner {
+    width: 1399px;
+    height: 318px;
+    background: linear-gradient(180deg, #F6F6F6 0%, rgba(246, 246, 246, 0.00) 100%);
+}
