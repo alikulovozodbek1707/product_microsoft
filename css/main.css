@@ -1226,3 +1226,47 @@ main {
     font-size: 16px;
     font-weight: 500;
 }
+
+.enterprise__title {
+    display: block;
+    margin: 0 auto;
+    padding: 203px 0 16px 0;
+    text-align: center;
+    color: #22343D;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.enterprise__subtitle {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: #22343D;
+    font-family: Poppins;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.enterprise__text {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: #22343D;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.enterprise__link {
+    display: block;
+    margin: 32px auto;
+    width: 224px;
+    padding: 11px 18px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #EFEFEF;
+    border-radius: 8px;
+    background: #02897A;
+}
