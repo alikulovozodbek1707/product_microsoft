@@ -38,12 +38,14 @@
     --body-bg: #fff;
     --header-link-color: #173A56;
     --text-color: #22343D;
+    --box-background:linear-gradient(180deg, #F6F6F6 0%, rgba(246, 246, 246, 0.00) 100%);
 }
 
 .dark {
     --body-bg: #1F2E35;
     --header-link-color: #FFFFFF;
     --text-color: #FFFFFF;
+    --box-background: #22343D;
 }
 
 html {
@@ -382,7 +384,7 @@ main {
     font-size: 16px;
     line-height: 24px;
     text-decoration: none;
-    color: var(--body-bg);
+    color: #FFF;
 }
 
 @media only screen and (max-width:576px) {
@@ -897,7 +899,7 @@ main {
 }
 
 .nowspan--color {
-    background: var(--body-bg);
+    background: #fff;
 }
 
 .span__link {
@@ -1205,7 +1207,7 @@ main {
 }
 
 .button__span {
-    color: var(--body-bg);
+    color: #FFF;
 }
 
 .small__text {
@@ -1234,7 +1236,7 @@ main {
     margin: 0 auto;
     padding: 75px 0 35px 0;
     text-align: center;
-    color: #22343D;
+    color:var(--text-color);
     font-family: Poppins;
     font-size: 24px;
     font-weight: 600;
@@ -1244,7 +1246,7 @@ main {
     display: block;
     margin: 0 auto;
     text-align: center;
-    color: #22343D;
+    color:var(--text-color);
     text-align: center;
     font-family: Poppins;
     font-size: 40px;
@@ -1256,7 +1258,7 @@ main {
     margin: 0 auto;
     padding: 16px 0 49px 0;
     text-align: center;
-    color: #22343D;
+    color:var(--text-color);
     text-align: center;
     font-family: Poppins;
     font-size: 16px;
@@ -1266,9 +1268,9 @@ main {
 .enterprise__title {
     display: block;
     margin: 0 auto;
-    padding: 203px 0 16px 0;
+    padding: 53px 0 16px 0;
     text-align: center;
-    color: #22343D;
+    color: var(--text-color);
     font-family: Poppins;
     font-size: 24px;
     font-weight: 600;
@@ -1278,7 +1280,7 @@ main {
     display: block;
     margin: 0 auto;
     text-align: center;
-    color: #22343D;
+    color: var(--text-color);
     font-family: Poppins;
     font-size: 34px;
     font-weight: 700;
@@ -1288,7 +1290,7 @@ main {
     display: block;
     margin: 0 auto;
     text-align: center;
-    color: #22343D;
+    color: var(--text-color);
     font-family: Poppins;
     font-size: 18px;
     font-weight: 400;
@@ -1297,6 +1299,7 @@ main {
 .enterprise__link {
     display: block;
     margin: 32px auto;
+    margin-bottom: 51px;
     width: 224px;
     padding: 11px 18px;
     justify-content: center;
@@ -1308,7 +1311,12 @@ main {
 }
 
 .enterprise__inner {
-    background: linear-gradient(180deg, #F6F6F6 0%, rgba(246, 246, 246, 0.00));
+    height: 318px;
+
+}
+.enterprise{
+    margin-top: 150px;
+   background:var(  --box-background);
 }
 
 .site_hero {
@@ -1317,7 +1325,7 @@ main {
     margin-left: 14px;
     padding: 201px 0 63px 0;
     text-align: center;
-    color: #22343D;
+    color: var(--text-color);
     font-family: Poppins;
     font-size: 34px;
     font-weight: 700;
@@ -1325,7 +1333,7 @@ main {
 
 .site_text {
     padding-left: 14px;
-    color: #22343D;
+    color: var(--text-color);
     text-align: center;
     font-family: Poppins;
     font-size: 24px;
@@ -1353,7 +1361,7 @@ main {
     margin-top: -5px;
     padding-left: 16px;
     padding-top: -0px;
-    color: #22343D;
+    color: var(--text-color);
     font-family: Poppins;
     font-size: 16px;
     font-weight: 400;
@@ -1366,7 +1374,7 @@ main {
     margin: 0 auto;
     padding: 145px 0 4px 0;
     text-align: center;
-    color: #22343D;
+    color:var(--text-color);
     font-family: Poppins;
     font-size: 34px;
     font-weight: 700;
@@ -1377,7 +1385,7 @@ main {
     margin: 0 auto;
     padding: 4px 0 50px 0;
     text-align: center;
-    color: #22343D;
+    color:var(--text-color);
     font-family: Poppins;
     font-size: 18px;
     font-weight: 400;
@@ -1394,7 +1402,7 @@ main {
 
 .question_subtext {
     padding-left: 16px;
-    color: #22343D;
+    color:var(--text-color);
     font-family: Poppins;
     font-size: 18px;
     font-weight: 500;
@@ -1402,7 +1410,7 @@ main {
 
 .question_subtitle {
     width: 920px;
-    color: #22343D;
+    color: var(--text-color);
     font-family: Poppins;
     font-size: 16px;
     font-style: normal;
